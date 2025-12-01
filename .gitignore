@@ -1,0 +1,28 @@
+# MATLAB specific
+*.asv          # AutoSave files
+*.bak          # Backup files
+*.log          # Log files
+*.mexa64       # Compiled MEX files (Linux)
+*.mexmaci      # Compiled MEX files (MacOS)
+*.mexw64       # Compiled MEX files (Windows)
+*.mlapp        # MATLAB App Designer app files
+*.mlag         # MATLAB lag files
+*.slx          # Simulink models
+# *.mat          # MATLAB data files (optional, if you don't want to track these)
+*.fig          # MATLAB figure files
+*.mex          # Compiled MATLAB function
+*.fls          # MATLAB LaTeX log files
+*.dvi          # LaTeX output
+*.aux          # LaTeX auxiliary files
+*.toc          # LaTeX table of contents
+*.out          # LaTeX output
+*.blg          # LaTeX log files
+*.bbl          # LaTeX bibliography files
+
+# Temporary files
+*_backup.mat   # Temporary backup files
+*_old.mat      # Old files
+
+# MATLAB Project files (optional, depending on your usage)
+.mlpkgdef      # MATLAB package definition files
+.mltbx          # MATLAB toolbox files
