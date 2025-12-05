@@ -6,6 +6,8 @@ This repository contains the code implementation for the research paper titled *
 
 In this paper, we investigate **effect of UAV elevation and tilt angle on shadow fading**. The goal of the study was to **integrate angular information into shadow fading correlation modeling**, and this code demonstrates the experimental setups, data processing pipelines, and the results we obtained.
 
+<img src="./png/measurement_environment.png" width="500" height="340">
+
 ### Key Highlights:
 - **Approach**: We used **biexponential spatial correlation modeling, exponential angular correlation model, ordinary Kriging interpolation**
 - **Data**: The dataset used in this research consists of **AERPAW AFAR Challenge Dataset** ([link](https://aerpaw.org/dataset/aerpaw-find-a-rover-afar-challenge-in-december-2023/)).
@@ -77,16 +79,17 @@ This step trains the model and saves the correlation model coefficients within `
 
 Also, the conditional CDF plots of shadow fading, angular correlation tables, and exponential model plots will pop up.
 
-| <img src="./png/corr_profile_elevation.png" width="200" height="150"> | <img src="png/corr_profile_tilt.png" width="200" height="150">|
+| <img src="./png/corr_profile_elevation.png" width="250" height="240"> | <img src="png/corr_profile_tilt.png" width="250" height="240">|
 |--------------------------------------------------|--------------------------------------------------|
-| <img src="png/exp_fitting_elevation.png" width="200" height="150"> | <img src="png/exp_fitting_tilt.png" width="200" height="150"> |
+| <img src="png/exp_fitting_elevation.png" width="250" height="240"> | <img src="png/exp_fitting_tilt.png" width="250" height="240"> |
 
 
 ### Model Evaluation: 
 
 The performance of proposed and conventional correlation model will be evaluated as the RMSE of REM construction. Conventional method: uses only spatial distance, proposed method: used spatial distance, elevation angles, tilt angles.
 
-| <img src="./png/rmse_cdf.png" width="200" height="150"> | <img src="png/rmse_median.png" width="200" height="150">|
+| <img src="./png/rmse_cdf.png" width="250" height="240"> | <img src="png/rmse_median.png" width="250" height="240">|
+|--------------------------------------------------|--------------------------------------------------|
 
 
 ## License
