@@ -1,6 +1,6 @@
 # Shadow Fading Angular Correlation
 
-This repository contains the code implementation for the research paper titled **Elevation- and Tilt-Aware Shadow Fading Correlation Modeling for UAV Communications**. The paper focuses on **modeling the correlation variation of shadow fading with UAV elevation and tilt angle changes**. This code allows you to replicate the experiments described in the paper and explore the results.
+This repository contains the code implementation for the research paper titled **Elevation- and Tilt-Aware Shadow Fading Correlation Modeling for UAV Communications**. The paper focuses on **modeling the correlation variation of shadow fading with UAV elevation and tilt angle changes**. This code allows you to replicate the experiments described in the paper and explore the results. (Alternate repository: https://github.com/MPACT-Lab/shadow-fading-ang-corr)
 
 ## General Introduction
 
